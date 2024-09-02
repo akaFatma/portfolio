@@ -1,7 +1,10 @@
 import React from 'react';
 import {motion} from 'framer-motion';
 import {styles} from '../styles';
-import {ComputerCanvas} from './ComputerCanvas'
+import {ComputerCanvas} from './Computer'
+import Computer from './Computer'
+import { Canvas } from '@react-three/fiber';
+
 
 
 
@@ -21,7 +24,7 @@ const Hero = () => {
          <p className= {`${styles.heroSubText} mt-2 text-white-100`}>minouchet el minouchat ff <br /> merci 3likom </p>
      </div>
  </div>
-    <ComputerCanvas/>
+    <ComputerCanvas />
     </section>
   )
 }
