@@ -7,7 +7,7 @@ import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import Feedback from './Components/Feedback'
 import Tech from './Components/Tech'
-import Works from './Components/Works'
+
 
 
 const App = () => {
@@ -22,7 +22,6 @@ const App = () => {
       <About/>
       <Experience/>
       <Tech />
-      <Works />
      </div>
      <div className="relative z-0">
       <Contact/>

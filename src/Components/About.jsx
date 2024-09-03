@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 import  {styles } from '../styles'
 import { fadeIn, textVariant } from "../utils/motion";
 import {services} from './services'
-import {SectionWrapper} from './hoc/SectionWrapper';
+import {SectionWrapper} from './hoc/index';
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
