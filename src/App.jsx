@@ -2,7 +2,6 @@ import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import About from './Components/About'
 import Contact from './Components/Contact'
-import Experience from './Components/Experience'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import Feedback from './Components/Feedback'
@@ -20,7 +19,6 @@ const App = () => {
         <Hero />
       </div>
       <About/>
-      <Experience/>
       <Tech />
      </div>
      <div className="relative z-0">
